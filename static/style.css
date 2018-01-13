@@ -1,0 +1,97 @@
+body {
+    margin: auto 358px;
+  }
+  
+  nav ul {
+    padding: 0;
+    display: inline-block;
+  }
+  
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  nav #user-account {
+    float: right;
+  }
+
+
+
+
+
+
+
+
+/*
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+  }
+  
+  
+  nav a {
+      background-color: rgb(109, 194, 228);
+      border-radius:2px;
+      border:none;
+      color: rgb(10, 0, 100);
+      cursor: pointer;
+      display:block;
+      font-size: 85%;
+      margin-bottom: 1rem;
+      padding: .5rem;
+  }
+  nav a:hover {
+      background:lightblue;
+      box-shadow: 0px 5px 5px #777;
+      left: -3px;
+      position: relative;
+      top: -3px;
+  }
+  main {
+      display: flex;
+      justify-content: flex-start;
+  }
+  
+  .container {
+      margin-left: 3rem;
+  }
+  
+  input {
+      display: block;
+      font-size: 100%;
+      margin: 1rem;
+  }
+  
+  textarea {
+      display: block;
+      font-size: 100%;
+      margin: 1rem;
+  }
+  
+  #submit_button {
+      background-color: rgb(31, 6, 141);
+      border-radius:2px;
+      border:none;
+      color: rgb(222, 212, 224);
+      cursor: pointer;
+      padding: .5em;
+  }
+  
+  #submit_button:hover {
+      background:rgb(35, 6, 141);
+      box-shadow: 0px 5px 5px rgb(3, 0, 0);
+      left: -3px;
+      position: relative;
+      top: -3px;
+  }
+  
+  .flash_message {
+      background-color: rgb(226, 197, 194);
+      border-radius: 2px;
+      color: rgb(185, 13, 13);
+      margin: .25rem;
+      padding: 2rem;
+  }
+  

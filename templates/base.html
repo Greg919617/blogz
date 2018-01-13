@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+    <head>
+        <title>{{title}}</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+      <style>
+          .error {color: red; }
+      </style>
+    </head>
+<body>
+        
+<nav>
+    <ul id="user-account">
+        <li><a href="/login">Login</a> </li> 
+        <li><a href="/logout">Logout</a></li>
+    </ul>    
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/blog">All Posts</a></li>
+        <li><a href="/newpost">New Post</a></li>
+    </ul>    
+</nav>   
+
+{% block content %}
+
+{% endblock %}
+
+</body>
+</html>
